@@ -1,19 +1,8 @@
 {
   "title": "Linux Security Learning Path",
-  "description": "Hands-on Linux + Security Investigation Lab",
-  "courses": [
-    {
-      "title": "Linux Fundamentals",
-      "scenarios": [
-        {
-          "title": "Scenario 1 - Linux Foundations",
-          "path": "scenario1"
-        },
-        {
-          "title": "Scenario 2 - Compromised System",
-          "path": "scenario2"
-        }
-      ]
-    }
+  "description": "Hands-on Linux + Security Investigation Lab.",
+  "items": [
+    { "path": "scenario1" },
+    { "path": "scenario2" }
   ]
 }
