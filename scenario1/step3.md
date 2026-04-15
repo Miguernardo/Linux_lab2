@@ -1,22 +1,13 @@
-# Files & Folders
+# Step 3 — Files
 
-## 🎯 Objective
+## Objective
+Create and read files.
 
-Learn how to create and manage files.
+## Tasks
+- Create notes.txt
+- Write something inside
+- Read it
 
----
-
-## 🧠 Understand
-
-Files store information. You must be able to create and organize them.
-
----
-
-## 🛠️ Try
-
-Create a folder:
-
-## 🔁 Apply
-
-- Create another file
-- Rename it
+## Validation
+Add:
+FLAG3_report_started
