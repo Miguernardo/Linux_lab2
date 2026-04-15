@@ -3,12 +3,14 @@
 mkdir -p /home/ubuntu/lab
 cd /home/ubuntu/lab
 
-echo "Welcome to Linux Lab" > welcome.txt
-echo "secret_key=alpha123" > hidden.txt
-
-mkdir data
-echo "log entry 1" > data/log.txt
+echo "Welcome" > welcome.txt
+echo "secret=flag" > hidden.txt
 
 chmod 777 hidden.txt
+
+# fake process
+echo -e "#!/bin/bash\nsleep 9999" > /tmp/bad_process
+chmod +x /tmp/bad_process
+/tmp/bad_process &
 
 chown -R ubuntu:ubuntu /home/ubuntu/lab
