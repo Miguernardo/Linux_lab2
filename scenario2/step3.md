@@ -1,25 +1,10 @@
-# Find the Clue
+# Step 3 — Hidden Files
 
-## 🎯 Objective
+## Objective
+Find hidden data.
 
-Find sensitive information hidden in the system.
+## Tasks
+Explore /tmp
 
----
-
-## 🧠 Hint
-
-Some files are hidden.
-
----
-
-## 🛠️ Try
-
-- Explore directories
-- Look for hidden files
-- Read suspicious content
-
----
-
-## 🔁 Apply
-
-Find a file containing a password.
+## Validation
+FLAG3_hidden
