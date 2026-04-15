@@ -1,24 +1,11 @@
-# Search
+# Step 4 — Search
 
-## 🎯 Objective
-Find hidden information in the system.
+## Objective
+Find hidden information.
 
----
-
-## 🧠 Hint
-Some files contain keywords.
-
----
-
-## 🛠️ Task
-
+## Tasks
 Find a file containing:
 secret
 
----
-
-## ✅ Validation
-
-When found, add to report.txt:
-
+## Validation
 FLAG4_secret_found
