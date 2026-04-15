@@ -1,0 +1,21 @@
+{
+  "title": "Compromised System",
+  "description": "Investigate and secure a Linux system.",
+  "difficulty": "Intermediate",
+  "time": "30 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      { "title": "Initial Access", "text": "step1.md" },
+      { "title": "Exploration", "text": "step2.md" },
+      { "title": "Find the Clue", "text": "step3.md" },
+      { "title": "Fix Security Issues", "text": "step4.md" },
+      { "title": "Stop the Threat", "text": "step5.md" }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

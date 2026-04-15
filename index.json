@@ -1,0 +1,21 @@
+{
+  "title": "Linux Security Lab",
+  "description": "Learn Linux fundamentals and apply them in a real compromised system scenario.",
+  "courses": [
+    {
+      "title": "Linux 101 + Security",
+      "scenarios": [
+        {
+          "title": "Scenario 1 - Linux Fundamentals",
+          "description": "Learn core Linux skills step by step.",
+          "path": "scenario1"
+        },
+        {
+          "title": "Scenario 2 - Compromised System",
+          "description": "Investigate and secure a compromised Linux system.",
+          "path": "scenario2"
+        }
+      ]
+    }
+  ]
+}

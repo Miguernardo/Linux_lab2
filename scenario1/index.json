@@ -1,0 +1,25 @@
+{
+  "title": "Linux Fundamentals",
+  "description": "Master essential Linux commands before investigating a system.",
+  "difficulty": "Beginner",
+  "time": "45 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      { "title": "Orientation", "text": "step1.md" },
+      { "title": "Navigation", "text": "step2.md" },
+      { "title": "Files & Folders", "text": "step3.md" },
+      { "title": "Reading Files", "text": "step4.md" },
+      { "title": "Writing Content", "text": "step5.md" },
+      { "title": "Search & Investigation", "text": "step6.md" },
+      { "title": "Permissions", "text": "step7.md" },
+      { "title": "Processes", "text": "step8.md" },
+      { "title": "Editing with Nano", "text": "step9.md" }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
