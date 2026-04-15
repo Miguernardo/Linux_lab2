@@ -7,11 +7,11 @@
       "scenarios": [
         {
           "title": "Scenario 1 - Linux Foundations",
-          "path": "scenario1-linux-basics"
+          "path": "scenario1"
         },
         {
           "title": "Scenario 2 - Compromised System",
-          "path": "scenario2-compromised-system"
+          "path": "scenario2"
         }
       ]
     }
