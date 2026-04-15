@@ -1,84 +1,38 @@
 #!/bin/bash
 
-mkdir -p /home/ubuntu/investigation
-mkdir -p /home/ubuntu/data/logs
-mkdir -p /home/ubuntu/data/users
-mkdir -p /home/ubuntu/data/archive
-mkdir -p /home/ubuntu/.hidden
-mkdir -p /home/ubuntu/tmp
+# Users
+useradd -m student
+useradd -m backup_admin
 
-cat <<EOF > /home/ubuntu/README.txt
-System status report:
+# Wrong date
+date -s "2003-04-15 10:00:00"
 
-FLAG1{system_access_granted}
+# Home files
+mkdir -p /home/student
+echo "normal file" > /home/student/file.txt
 
-Some unusual behavior has been detected.
-Please investigate.
-EOF
+# Hidden investigation
+mkdir -p /tmp/.cache/.logs/.hidden
+echo "structure matters more than content" > /tmp/.cache/.logs/.hidden/clue.txt
 
-cat <<EOF > /home/ubuntu/data/logs/system.log
-[INFO] System boot at 08:21
-[INFO] User ubuntu logged in
-[INFO] Network interface initialized
-[WARNING] Suspicious activity in /tmp
-[INFO] Scheduled backup started
-[INFO] Backup completed successfully
-[WARNING] Unusual activity detected
-[INFO] Cron job executed
-[INFO] System health check OK
-[WARNING] Suspicious keyword detected: password
-[INFO] Disk usage normal
-[INFO] User logout
-EOF
-echo "FLAG3{search_success}" >> /home/ubuntu/data/logs/system.log
-cat <<EOF > /home/ubuntu/data/users/notes.txt
-Internal note:
-Permissions were previously unsafe.
+# Noise
+echo "password=1234" > /home/student/fake.txt
 
-If you fixed this correctly:
-FLAG4{permissions_secured}
-EOF
+# Permissions issue
+touch /home/student/exploit.sh
+chmod 777 /home/student/exploit.sh
 
-chmod 777 /home/ubuntu/data/users/notes.txt
-
-echo "Old file" > /home/ubuntu/data/archive/old.txt
-
-cat <<EOF > /home/ubuntu/data/users/fake_credentials.txt
-username=test_user
-password=123456
-EOF
-
-echo "[WARNING] Hidden directory usage detected" >> /home/ubuntu/data/logs/system.log
-
-cat <<EOF > /home/ubuntu/data/users/admin_note.txt
-Reminder:
-
-Temporary directories should be cleaned regularly.
-Do not leave sensitive files exposed.
-EOF
-
-touch /home/ubuntu/data/archive/file1.txt
-touch /home/ubuntu/data/archive/file2.txt
-touch /home/ubuntu/data/archive/backup.log
-touch /home/ubuntu/data/archive/temp.data
-touch /home/ubuntu/.cache
-touch /home/ubuntu/.config
-
-mkdir -p /home/ubuntu/data/archive/old/backups
-echo "old system data" > /home/ubuntu/data/archive/old/backups/legacy.txt
-
-cat <<EOF > /home/ubuntu/.hidden/credentials.txt
-admin_password=SuperSecret123
-
-FLAG2{hidden_directory_found}
-EOF
-
-echo "RUNNING" > /tmp/process_flag
-
-echo "temp file" > /home/ubuntu/tmp/cache.tmp
-
-cp /bin/sleep /tmp/system_backup
-/tmp/system_backup 3000 &
+# Process
+echo -e "#!/bin/bash\nsleep 9999" > /tmp/system_backup
+chmod +x /tmp/system_backup
+/tmp/system_backup &
 echo $! > /tmp/malicious_pid
 
-chown -R ubuntu:ubuntu /home/ubuntu
+# Puzzle
+mkdir -p /opt/puzzle/F /opt/puzzle/L /opt/puzzle/A /opt/puzzle/G
+touch /opt/puzzle/F/f1
+touch /opt/puzzle/L/l1
+touch /opt/puzzle/A/a1
+touch /opt/puzzle/G/g1
+
+chown -R student:student /home/student
