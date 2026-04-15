@@ -1,18 +1,19 @@
 {
   "title": "Compromised System",
-  "description": "Investigate and secure a Linux system.",
+  "description": "Investigate and secure a Linux system",
   "difficulty": "Intermediate",
-  "time": "30 minutes",
+  "time": "35 minutes",
   "details": {
     "intro": {
       "text": "intro.md"
     },
     "steps": [
-      { "title": "Initial Access", "text": "step1.md" },
-      { "title": "Exploration", "text": "step2.md" },
-      { "title": "Find the Clue", "text": "step3.md" },
-      { "title": "Fix Security Issues", "text": "step4.md" },
-      { "title": "Stop the Threat", "text": "step5.md" }
+      { "title": "Initial Analysis", "text": "step1.md" },
+      { "title": "User Investigation", "text": "step2.md" },
+      { "title": "Hidden Files", "text": "step3.md" },
+      { "title": "Security Issues", "text": "step4.md" },
+      { "title": "Processes", "text": "step5.md" },
+      { "title": "Final Puzzle + Report", "text": "step6.md" }
     ]
   },
   "backend": {
