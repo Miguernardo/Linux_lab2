@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir -p /home/ubuntu/lab
 cd /home/ubuntu/lab
 
