@@ -4,7 +4,6 @@ while [ ! -f /tmp/orion-investigation-ready ]; do
   sleep 1
 done
 echo "Environnement prêt."
-mkdir -p /root/my-lab
-cd /root/my-lab
+cd /
 # Clear the terminal so it looks clean
 clear
