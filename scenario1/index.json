@@ -5,7 +5,9 @@
   "time": "45 minutes",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "foreground": "foreground.sh",
+      "background": "background.sh"
     },
     "steps": [
       { "title": "Orientation", "text": "step1.md" },
