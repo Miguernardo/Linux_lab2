@@ -21,6 +21,4 @@ cat > /opt/orion-system/.ghost_note <<EOF
 Nothing is ever truly lost.
 EOF
 
-cd /
-
 touch /tmp/orion-investigation-ready
