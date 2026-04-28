@@ -5,4 +5,3 @@ while [ ! -f /tmp/orion-investigation-ready ]; do
 done
 echo "Environnement prêt."
 
-cd /
