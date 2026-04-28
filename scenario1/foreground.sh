@@ -5,5 +5,6 @@ while [ ! -f /tmp/orion-investigation-ready ]; do
 done
 echo "Environnement prêt."
 cd /
+apt install tree
 # Clear the terminal so it looks clean
 clear
