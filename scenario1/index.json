@@ -6,7 +6,7 @@
   "details": {
     "intro": {
       "text": "intro.md",
-      "foreground": "foreground.sh"
+      "background": "background.sh"
     },
     "steps": [
       { "title": "Orientation", "text": "step1.md" },
