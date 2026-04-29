@@ -27,5 +27,11 @@ apt install tree
 # Clear the terminal so it looks clean
 clear
 cd /
+
+clear
+cd /
+
+clear
+cd /
 # On installe le radar visuel
 sudo apt update && sudo apt install -y tree
