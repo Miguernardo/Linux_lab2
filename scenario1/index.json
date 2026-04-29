@@ -1,16 +1,14 @@
 {
   "title": "Linux Foundations",
   "description": "Learn essential Linux skills step by step",
-  "difficulty": "Beginner",
-  "time": "45 minutes",
   "details": {
     "intro": {
       "text": "intro.md",
       "foreground": "foreground.sh"
     },
-    "steps": [
-      { "title": "Orientation", "text": "step1.md" }
-    ]
+    "finish": {
+      "text": "finish.md"
+    }
   },
   "backend": {
     "imageid": "ubuntu"
