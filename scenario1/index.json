@@ -9,12 +9,7 @@
       "foreground": "foreground.sh"
     },
     "steps": [
-      { "title": "Orientation", "text": "step1.md" },
-      { "title": "Navigation + Files", "text": "step2.md" },
-      { "title": "Reading + Writing", "text": "step3.md" },
-      { "title": "Search", "text": "step4.md" },
-      { "title": "Permissions", "text": "step5.md" },
-      { "title": "Processes + Nano", "text": "step6.md" }
+      { "title": "Orientation", "text": "step1.md" }
     ]
   },
   "backend": {
