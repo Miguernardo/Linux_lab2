@@ -20,18 +20,15 @@ echo "Note: Ne pas oublier" > check.txt
 
 cd /home/ubuntu && mkdir -p zone_securisee && cd zone_securisee
 touch donnees_sensibles.txt
+
+clear
+cd /
 # On lance un faux processus "espion" en arrière-plan
 sleep 5000 &
 
 apt install tree
 # Clear the terminal so it looks clean
-clear
-cd /
 
-clear
-cd /
 
-clear
-cd /
 # On installe le radar visuel
 sudo apt update && sudo apt install -y tree
