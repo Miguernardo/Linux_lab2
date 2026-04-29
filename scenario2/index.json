@@ -5,7 +5,8 @@
   "time": "35 minutes",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "foreground": "foreground.sh"
     },
     "steps": [
       { "title": "Initial Analysis", "text": "step1.md" },
