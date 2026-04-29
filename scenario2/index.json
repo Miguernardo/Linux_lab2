@@ -8,14 +8,7 @@
       "text": "intro.md",
       "foreground": "foreground.sh"
     },
-    "steps": [
-      { "title": "Initial Analysis", "text": "step1.md" },
-      { "title": "User Investigation", "text": "step2.md" },
-      { "title": "Hidden Files", "text": "step3.md" },
-      { "title": "Security Issues", "text": "step4.md" },
-      { "title": "Processes", "text": "step5.md" },
-      { "title": "Final Puzzle + Report", "text": "step6.md" }
-    ]
+
   },
   "backend": {
     "imageid": "ubuntu"
