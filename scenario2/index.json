@@ -1,16 +1,14 @@
 {
   "title": "Compromised System",
   "description": "Investigate and secure a Linux system",
-  "difficulty": "Intermediate",
-  "time": "35 minutes",
   "details": {
     "intro": {
       "text": "intro.md",
       "foreground": "foreground.sh"
     },
-    "steps": [
-      {"title": "Orientation", "text": "step1.md" }
-    ]
+          "finish": {
+      "text": "finish.md"
+    }
   },
   "backend": {
     "imageid": "ubuntu"
