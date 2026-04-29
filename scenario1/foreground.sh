@@ -26,9 +26,4 @@ cd /
 
 sleep 5000 &
 
-apt install tree
-# Clear the terminal so it looks clean
-
-
-# On installe le radar visuel
-sudo apt update && sudo apt install -y tree
+apt install tree neofetch cmatrix 
