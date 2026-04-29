@@ -1,11 +1,8 @@
 #!/bin/bash
 # On s'assure d'être à la racine et on crée le décor
-cd /
 mkdir -p /home/ubuntu/scenario1
 touch /home/ubuntu/scenario1/note_secrete.txt /home/ubuntu/scenario1/.config_cache
 echo "Accès autorisé" > /home/ubuntu/scenario1/bienvenue.txt
-# On installe le radar visuel
-sudo apt update && sudo apt install -y tree
 
 cd /home/ubuntu && mkdir -p etage1/bureau/tiroir etage2/secret && touch etage2/secret/pass.txt
 
@@ -29,3 +26,6 @@ sleep 5000 &
 apt install tree
 # Clear the terminal so it looks clean
 clear
+cd /
+# On installe le radar visuel
+sudo apt update && sudo apt install -y tree
