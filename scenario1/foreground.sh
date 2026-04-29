@@ -23,7 +23,7 @@ touch donnees_sensibles.txt
 
 clear
 cd /
-# On lance un faux processus "espion" en arrière-plan
+
 sleep 5000 &
 
 apt install tree
