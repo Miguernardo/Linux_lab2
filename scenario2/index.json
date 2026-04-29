@@ -8,7 +8,9 @@
       "text": "intro.md",
       "foreground": "foreground.sh"
     },
-
+    "steps": [
+      {"title": "Orientation", "text": "step1.md" }
+    ]
   },
   "backend": {
     "imageid": "ubuntu"
