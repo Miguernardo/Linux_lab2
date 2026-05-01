@@ -1,6 +1,6 @@
 {
-  "title": "Compromised System",
-  "description": "Investigate and secure a Linux system",
+  "title": "Operation Clean Sweep",
+  "description": "Enquêter et sécuriser un système Linux",
   "details": {
     "intro": {
       "text": "intro.md",
