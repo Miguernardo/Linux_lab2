@@ -1,4 +1,4 @@
-# 🧠 Phase d'Apprentissage : Le Laboratoire
+# 🧠 Le Laboratoire
 
 Bienvenue dans votre environnement d'apprentissage. Ce projet est conçu pour vous apprendre à utiliser le terminal et à comprendre la structure d'un système Linux avant d'intervenir.
 
