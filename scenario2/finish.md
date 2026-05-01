@@ -5,4 +5,3 @@ Le serveur est sécurisé, les logs sont nettoyés et les menaces ont été neut
 ### Remerciements :
 Merci d'avoir complété ce projet sur la sécurité et le terminal linux. 
 
-👉 **Retourner à l'accueil bernarz**
