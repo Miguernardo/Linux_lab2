@@ -1,8 +1,8 @@
-# Mission Complete
+# 🏆 Mission Accomplie !
 
-You successfully:
-- Investigated a system
-- Found anomalies
-- Secured the environment
+Le serveur est sécurisé, les logs sont nettoyés et les menaces ont été neutralisées. Vous avez prouvé votre valeur en tant qu'administrateur système.
 
-This is real-world Linux work.
+### Remerciements :
+Merci d'avoir complété ce projet axé sur la sécurité et le feedback interactif. 
+
+👉 **Retourner à l'accueil bernarz**
