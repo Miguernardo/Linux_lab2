@@ -5,4 +5,4 @@ Félicitations, vous avez maîtrisé les bases théoriques et les exercices prat
 ### Prochaine étape :
 Il est temps de quitter l'entraînement pour la mission réelle. Retournez à la page d'accueil pour lancer la mission d'investigation.
 
-👉 **[Retourner aux scénarios](https://killercoda.com/bernarz)**
+👉 Retourner aux scénarios
