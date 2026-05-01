@@ -1,6 +1,6 @@
 {
-  "title": "Linux Foundations",
-  "description": "Learn essential Linux skills step by step",
+  "title": "Phase d'Apprentissage",
+  "description": "Apprenez les compétences essentielles de Linux étape par étape",
   "details": {
     "intro": {
       "text": "intro.md",
